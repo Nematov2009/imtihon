@@ -1,9 +1,30 @@
+@media (max-width: 1122px) {
+  .fleet__text h2 {
+    font-size: 35px;
+  }
+}
 @media (max-width: 990px) {
+  .fleet__text strong {
+    font-weight: 500px;
+  }
+  .fleet__text p {
+    max-width: 500px;
+  }
   .hero__content h2 {
     font-size: 70px;
   }
 }
 @media (max-width: 800px) {
+  .card {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .fleet__text h2 {
+    font-size: 25px;
+  }
+  .fleet__text p {
+    font-size: 14px;
+  }
   .nav__title select {
     display: none;
   }
@@ -16,6 +37,12 @@
 }
 
 @media (max-width: 700px) {
+  .fleet {
+    flex-direction: column-reverse;
+  }
+  .fleet__icons {
+    right: 56%;
+  }
   .navbar__item button {
     display: none;
   }
@@ -27,6 +54,12 @@
   }
 }
 @media (max-width: 600px) {
+  .card__img h2 {
+    font-size: 18px;
+  }
+  .card__img p {
+    font-size: 10px;
+  }
   .hero__content h2 {
     font-size: 30px;
   }
@@ -39,6 +72,25 @@
   }
 }
 @media (max-width: 500px) {
+  .card {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .card__img {
+    width: 100%;
+  }
+  .card__img p {
+    font-size: 20px;
+  }
+  .card__img h2 {
+    font-size: 30px;
+    padding-top: 10px;
+  }
+  .card__img img {
+    width: 100%;
+  }
+  .fleet__text h2 {
+    font-size: 20px;
+  }
   .navbar__collection {
     display: none;
   }
@@ -53,6 +105,12 @@
   }
 }
 @media (max-width: 400px) {
+  .card__img h2 {
+    font-size: 20px;
+  }
+  .card__img p {
+    font-size: 14px;
+  }
   .hero {
     height: 400px;
   }

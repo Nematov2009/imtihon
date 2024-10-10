@@ -182,7 +182,6 @@
   font-family: DM Sans;
   font-size: 48px;
   font-weight: 700;
-  line-height: 56px;
   max-width: 448px;
   padding-top: 16px;
   padding-bottom: 32px;
@@ -191,7 +190,6 @@
   font-family: Poppins;
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
   max-width: 448px;
   padding-bottom: 40px;
 }
@@ -218,4 +216,39 @@
 .fleet {
   display: flex;
   align-items: center;
+}
+/* card */
+.card__content h2 {
+  font-family: DM Sans;
+  font-size: 48px;
+  font-weight: 700;
+}
+.card__content p {
+  font-family: Poppins;
+  font-size: 24px;
+  line-height: 32px;
+  color: var(--bg-cy);
+  padding-top: 12px;
+  margin-bottom: 48px;
+}
+.card__img h2 {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+}
+.card__img p {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  color: var(--bg-cy);
+}
+.card {
+  display: grid;
+  grid-gap: 32px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.section {
+  overflow: hidden;
 }
