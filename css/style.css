@@ -243,6 +243,7 @@
   font-weight: 400;
   line-height: 20px;
   color: var(--bg-cy);
+  margin-bottom: 48px;
 }
 .card {
   display: grid;
@@ -251,4 +252,80 @@
 }
 .section {
   overflow: hidden;
+}
+/* body */
+.body {
+  display: grid;
+  grid-gap: 24px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.body__text {
+  text-align: center;
+  margin-bottom: 92px;
+}
+.body__text strong {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 700;
+}
+.body__text h2 {
+  font-family: DM Sans;
+  font-size: 48px;
+  font-weight: 700;
+  padding-top: 8px;
+  padding-bottom: 32px;
+}
+.body__btn {
+  padding: 16px 24px 16px 24px;
+  border-radius: 90px;
+  border: none;
+  background: var(--bg-py);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+}
+.body__btn:hover {
+  background: #3b72fe9d;
+  cursor: pointer;
+}
+.body__btn:active {
+  scale: 0.98;
+}
+
+.body__card {
+  min-height: 320px;
+  border-radius: 20px;
+  background: #f4f5f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 32px;
+}
+.fa-face-smile {
+  font-size: 30px;
+  color: #fa8f54;
+  padding-bottom: 36px;
+}
+.body__card strong {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  color: #23262f;
+  padding-bottom: 16px;
+}
+.body__card p {
+  font-family: Poppins;
+  font-size: 14px;
+  max-width: 293px;
+}
+.fa-bolt-lightning {
+  font-size: 30px;
+  color: #8bc5e5;
+  padding-bottom: 36px;
+}
+.fa-gift {
+  font-size: 30px;
+  padding-bottom: 36px;
+  color: #58c27d;
 }
